@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://average-moth-visor.cyclic.app/api/v1/reservation/send",
+        "https://unusual-undershirt-jay.cyclic.app/api/v1/reservation/send",
         { firstName, lastName, email, date, time, phone },
         {
           headers: {
