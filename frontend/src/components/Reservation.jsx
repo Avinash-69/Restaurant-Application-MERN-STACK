@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/reservation/send",
+        "https://wild-jade-badger-robe.cyclic.app/api/v1/reservation/send",
         { firstName, lastName, email, date, time, phone },
         {
           headers: {
