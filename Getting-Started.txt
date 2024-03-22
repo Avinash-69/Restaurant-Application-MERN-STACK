@@ -1,0 +1,16 @@
+Backend:
+	npm init
+	npm instal cors express dotenv mongoose validator 
+type module
+npm run dev
+
+
+Frontend:
+	npm create vite@latest ./ 
+		React
+		Javascript+swc
+	npm install
+	npm i react-router-dom react-icons axios react-scroll react-hot-toast
+npm run dev
+
+
